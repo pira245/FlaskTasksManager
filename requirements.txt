@@ -1,0 +1,9 @@
+Jinja2
+Werkzeug
+itsdangerous
+click
+MarkupSafe
+greenlet
+setuptools
+SQLAlchemy
+Flask

@@ -1,0 +1,2 @@
+ProjectName,LinkProjectRepo,ImageName,LinkImageRepo,Category,ProjectAbout
+TemplateProject,https://github.com/pira245/FlaskTasksManager,FlaskTasksManager.png,https://github.com/pira245/FlaskTasksManager/media/FlaskTasksManager.png,Web,This is a basic web aplication created with Python and Flask to manage tasks.

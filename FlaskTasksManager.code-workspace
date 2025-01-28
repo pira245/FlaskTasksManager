@@ -1,0 +1,90 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "core"
+        },
+        {
+            "path": "docker"
+        },
+        {
+            "path": "mytestunity"
+        },
+
+    ],
+   
+// Controls the settings that apply to all profiles :
+ "settings": {
+        "workbench.settings.applyToAllProfiles": [
+            "terminal.integrated.cwd"
+        ],
+        "terminal.integrated.cwd": "d:\\vscode.workspaces\\ricardo.pirabed.github\\Python Web\\flask\\project\\FlaskTasksManager",
+        "workbench.editor.languageDetection": true,
+        "files.autoSave": "afterDelay",
+        "diffEditor.renderSideBySide": true,
+        "breadcrumbs.enabled": true,
+        "editor.minimap.enabled": true,
+        "python.defaultInterpreterPath": "D:\\anaconda.resources\\anaconda.environments\\flask_env",
+        "python.envFile": "d:\\vscode.workspaces\\ricardo.pirabed.github\\Python Web\\flask\\project\\FlaskTasksManager\\project.env",
+        "python.experiments.enabled": true,
+        "python.experiments.optInto": [],
+        "python.experiments.optOutFrom": [],
+        "python.globalModuleInstallation": false,
+        "python.analysis.aiCodeActions": {},
+        "python.analysis.extraPaths": [
+            "${workspaceFolder}",
+            "${fileDirname}"
+        ],
+        "projectManager.any.baseFolders": [
+            "d:\\vscode.workspaces\\ricardo.pirabed.github\\Python Web\\flask\\project\\FlaskTasksManager"
+        ],
+        "projectManager.tags": [
+            "Ricardo Pirabed",
+            "Web Development",
+        ],
+        "projectManager.git.baseFolders": [
+            "d:\\vscode.workspaces\\ricardo.pirabed.github\\Python Web\\flask\\project\\FlaskTasksManager"
+        ],
+        "projectManager.vscode.baseFolders": [
+            "d:\\vscode.workspaces\\ricardo.pirabed.github\\Python Web\\flask\\project\\FlaskTasksManager"
+        ]
+    },
+   
+// Add debuging configurations to project :
+ "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+            "name": "Python: Module: FlaskTasksManager", 
+            "type": "debugpy", 
+            "request": "launch", 
+            "module": "FlaskTasksManager", 
+            "env": {"PYTHONPATH": "d:\\vscode.workspaces\\ricardo.pirabed.github\\Python Web\\flask\\project\\FlaskTasksManager"}, 
+            "console": "integratedTerminal"
+        }
+        ],
+        "compounds": []
+    },
+   
+// Automate project tasks :
+ "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "My Task",
+                "command": "echo hello",
+                "type": "shell",
+                "args": [],
+                "problemMatcher": [
+                    "$tsc"
+                ],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "build"
+            }
+        ]
+    }
+}
