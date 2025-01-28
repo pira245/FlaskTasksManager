@@ -20,7 +20,7 @@ Use this mini project to learn the basic steps web app creation using Python and
 
     python main.py
 
-3- Screeshots
+3- Screenshots
 
 <div style="display: flex; justify-content: space-around;">
     <img src="media/pagina_de_inicio.png" alt="Screenshot 1" width="200"/>
